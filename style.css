@@ -9,3 +9,7 @@
     --texto:"Playfair Display", serif;
 
 }
+body{
+    background-color: var(--vermelho);
+    font-family: var(--texto)
+}
