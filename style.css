@@ -30,7 +30,7 @@ button{
     border: 2px 30px;
 padding: 20px 30px;
     margin: 10px 0;
-    cursor: pointer;
+    cursor: all-scroll;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -39,4 +39,10 @@ button:hover{
     color: var(--vermelho);
     transition: 0.5s;
 
+}
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
 }
